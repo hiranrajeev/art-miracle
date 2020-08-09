@@ -1,0 +1,22 @@
+.section-two{
+    background-color: lightgrey;
+}
+
+.section-one{
+    padding-top: 70px;
+}
+
+.section-one-text{
+    margin: auto;
+    text-align: center;
+}
+
+.section-two-text{
+    margin: auto;
+    text-align: center;
+}
+
+.section-two-text-heading{
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
