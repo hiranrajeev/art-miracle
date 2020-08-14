@@ -20,3 +20,27 @@
     text-decoration: underline;
     text-decoration-color: orange;
 }
+
+.about-me-text{
+    font-family: lato;
+    float: left;
+    text-align: left;
+    font-size: 15px;
+}
+
+.overlap{
+    position: relative;
+     left: 0;
+      top: 0;
+}
+
+.image1{
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+.image2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    }

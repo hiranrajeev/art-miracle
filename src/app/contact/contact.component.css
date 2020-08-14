@@ -7,3 +7,14 @@
 .contact-left{
     text-align: right;
 }
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    opacity: 0.9;
+    font-family: Helvetica;
+    font-size: 2vw;
+  }
