@@ -1,0 +1,24 @@
+.myWorksHeading{
+    text-align: center;
+    
+}
+.myWorksHeading:after{
+    content: "";
+    height: 3px;
+    width: 50px;
+    background-color: #FF6A04;
+    position: absolute;
+    bottom: -.2em;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.outer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery{
+    padding: 5%;
+}
