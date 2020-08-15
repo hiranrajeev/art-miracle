@@ -8,13 +8,29 @@
     </div>
     <mat-tab-group mat-align-tabs="center">
         <mat-tab label="Family Sketch">
-            <ngx-masonry-gallery [width]='250' [images]='images'></ngx-masonry-gallery>
+            <ng-template matTabContent>
+                <ngx-masonry-gallery [width]='300' [images]='images'></ngx-masonry-gallery>
+            </ng-template>
         </mat-tab>
         <mat-tab label="Caricature">
-           
+            <ng-template matTabContent>
+                <ngx-masonry-gallery [width]='300' [images]='images'></ngx-masonry-gallery>
+            </ng-template>
         </mat-tab>
-        <mat-tab label="Portraits">Portraits</mat-tab>
-        <mat-tab label="Save The Date">Save The Date</mat-tab>
-        <mat-tab label="Theme Based Art">Theme Based Art</mat-tab>
+        <mat-tab label="Portraits">
+            <ng-template matTabContent>
+                <ngx-masonry-gallery [width]='300' [images]='images'></ngx-masonry-gallery>
+            </ng-template>
+        </mat-tab>
+        <mat-tab label="Save The Date">
+            <ng-template matTabContent>
+                <ngx-masonry-gallery [width]='300' [images]='images'></ngx-masonry-gallery>
+            </ng-template>
+        </mat-tab>
+        <mat-tab label="Theme Based Art">
+            <ng-template matTabContent>
+                <ngx-masonry-gallery [width]='300' [images]='images'></ngx-masonry-gallery>
+            </ng-template>
+        </mat-tab>
     </mat-tab-group>
 </div>
