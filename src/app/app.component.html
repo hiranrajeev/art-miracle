@@ -1,56 +1,60 @@
 <app-header></app-header>
 
 
-  <div class="container section-one">
-    <div class="row">
-      <div class="col-md-7 col-sm-12 section-one-text">
+<div class="container section-one">
+  <div class="row">
+    <div class="col-md-7 col-sm-12 section-one-text">
+      <div class="text-left">
         Hi There!
-        <h1>Convert your moments <br> to a Digital Art</h1>
+        <h1 class="section-one-head">Convert your moments <br> to a <span class="text-gradient">Digital Art</span></h1>
       </div>
-      <div class="col-md-5 col-sm-12 overlap">
-        <img src="assets/bg1.png" class="col-md-12 image2">
-        <img src="assets/Hiran.png" class="col-md-12 image1">
+      <div class="text-right">
+        <img src="assets/top/the_art_miracle.svg">
+      </div>
+    </div>
+    <div class="col-md-5 col-sm-12 py-5 text-center">
+      <img src="assets/Hiran.png" class="img-fluid image1">
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid section-two">
+  <div class="container" id="about">
+    <div class="row">
+      <div class="col-md-5 col-sm-12">
+        <img src="assets/lakshmi.jpg" class="col-md-12">
+      </div>
+      <div class="col-md-7 col-sm-12 section-two-text">
+        <h2 class="section-two-text-heading">ABOUT ME</h2><br>
+        <span class="about-me-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo
+          consequat. Lorem ipsum dolor sit amet.</span>
       </div>
     </div>
   </div>
+</div>
 
-  <div class="container-fluid section-two">
-    <div class="container" id="about">
-      <div class="row">
-        <div class="col-md-5 col-sm-12">
-          <img src="assets/lakshmi.jpg" class="col-md-12">
-        </div>
-        <div class="col-md-7 col-sm-12 section-two-text">
-          <h2 class="section-two-text-heading">ABOUT ME</h2><br>
-          <span class="about-me-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo
-            consequat. Lorem ipsum dolor sit amet.</span>
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="container" id="services">
+  <!-- Services Offered -->
+  <app-services></app-services>
+</div>
 
-  <div class="container" id="services">
-    <!-- Services Offered -->
-    <app-services></app-services>
-  </div>
+<div class="container" id="works">
+  <!-- gallery -->
+  <app-gallery></app-gallery>
+</div>
 
-  <div class="container" id="works">
-    <!-- gallery -->
-    <app-gallery></app-gallery>
-  </div>
+<div class="container" id="paintingVideo">
+  <!-- Painting Video -->
+  <app-video></app-video>
+</div>
 
-  <div class="container" id="paintingVideo">
-    <!-- Painting Video -->
-    <app-video></app-video>
-  </div>
+<div class="container" id="contact">
+  <!-- contact -->
+  <app-contact></app-contact>
+</div>
 
-  <div class="container" id="contact">
-    <!-- contact -->
-    <app-contact></app-contact>
-  </div>
-
-  <!-- footer -->
-  <app-footer></app-footer>
+<!-- footer -->
+<app-footer></app-footer>
