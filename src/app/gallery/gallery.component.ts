@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { MatTabsModule } from '@angular/material/tabs';
 import { IMasonryGalleryImage } from 'ngx-masonry-gallery';
-import { Container } from '@angular/compiler/src/i18n/i18n_ast';
+import { MatTabsModule } from '@angular/material/tabs';
 
 
 @Component({
