@@ -21,9 +21,12 @@
     "@angular/platform-browser": "~10.0.2",
     "@angular/platform-browser-dynamic": "~10.0.2",
     "@angular/router": "~10.0.2",
+    "@glidejs/glide": "^3.3.0",
     "bootstrap": "^4.5.0",
     "jquery": "^3.5.1",
+    "ng-image-slider": "^2.6.1",
     "ngx-masonry-gallery": "^3.0.0",
+    "node-sass": "^4.14.1",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.3"

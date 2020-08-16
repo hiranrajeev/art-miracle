@@ -14,6 +14,9 @@ import { ServicesComponent } from './services/services.component';
 import { VideoComponent } from './video/video.component';
 import { ContactComponent } from './contact/contact.component';
 
+import { NgImageSliderModule } from 'ng-image-slider';
+import { AboutComponent } from './about/about.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,14 +25,16 @@ import { ContactComponent } from './contact/contact.component';
     GalleryComponent,
     ServicesComponent,
     VideoComponent,
-    ContactComponent
+    ContactComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatTabsModule,
-    MasonryGalleryModule
+    MasonryGalleryModule,
+    NgImageSliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
