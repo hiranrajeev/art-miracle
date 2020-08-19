@@ -1,5 +1,5 @@
 .section-one{
-    background-image: url("/assets/1 – 5@2x.png");
+    background-image: url('https://theartmiracle.com/assets/herobackground.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -23,6 +23,10 @@
     font-size: 70px;
 }
 
+.text-gradient-mobile{
+    font-size: 70px;
+}
+
 .section-one-head{
     font-size: 45px;
     line-height: 68px;
@@ -37,6 +41,15 @@
     font-size: 19px;
     line-height: 40px;
     font-weight: 600;
+}
+
+.hi-class-mob{
+    color: white!important;
+    font-size: 19px;
+    line-height: 40px;
+    font-weight: 600;
+    padding-top: 45%;
+    margin-bottom: 0;
 }
 
 .logo img{
@@ -54,10 +67,34 @@
     bottom: 90px;
 }
 
+.mobile-text{
+    color: white!important;
+}
+
  /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
     .section-one-head{
         font-size: 25px;
+    }
+
+    .section-one{
+        background-image: unset!important;
+    }
+
+    .mobile-bg{
+        background-image: url('https://theartmiracle.com/assets/mobile_bg.png');
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .hero-box{
+        padding: 3rem 0 4rem 0;
+       }
+
+       .image1{
+        width:85%;
+        height: auto;
     }
 }
 
@@ -65,6 +102,26 @@
 @media (min-width: 576px) and (max-width: 767.98px) { 
     .section-one-head{
         font-size: 25px;
+    }
+
+    .section-one{
+        background-image: unset!important;
+    }
+
+    .mobile-bg{
+        background-image: url('https://theartmiracle.com/assets/mobile_bg.png');
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .hero-box{
+        padding: 3rem 0 4rem 0;
+       }
+
+       .image1{
+        width:85%;
+        height: auto;
     }
  }
 

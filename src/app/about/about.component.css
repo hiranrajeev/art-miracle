@@ -26,3 +26,80 @@
     font-size: 26px;
     font-weight: 600;
 }
+
+.about-image{
+    width: 80%;
+    height: auto;
+}
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+    .about-image-mob-center{
+        text-align: center!important;
+        padding-bottom: 10%;
+    }
+
+    .about-mob-center{
+        text-align: center!important;
+    }
+
+    .signature-mobile{
+        height:30px;
+        margin-top:5%;
+    }
+
+    .section-two-text-heading{
+        font-size: 1.6rem;
+        font-weight: bold;
+        background:linear-gradient(108deg, #FE781E,#F34242) bottom  no-repeat;
+        background-size:40% 0.2rem;
+        padding-bottom: 5px;
+    }
+
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .about-image-mob-center{
+        text-align: center!important;
+        padding-bottom: 10%;
+    }
+
+    .about-mob-center{
+        text-align: center!important;
+    }
+
+    .signature-mobile{
+        height:32px;
+        margin-top:5%;
+    }
+
+    .section-two-text-heading{
+        font-size: 1.6rem;
+        font-weight: bold;
+        background:linear-gradient(108deg, #FE781E,#F34242) bottom  no-repeat;
+        background-size:40% 0.2rem;
+        padding-bottom: 5px;
+    }
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .about-image{
+        width: 100%;
+        height: auto;
+    }
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }

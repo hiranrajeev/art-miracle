@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'art-miracle';
+  public showLoader: boolean = true;
+
+  ngOnInit(): void {
+    setTimeout(() => {
+      this.showLoader = false;
+    }, 3000);
+  }
 }
+
+

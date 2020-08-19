@@ -1,41 +1,50 @@
-<!-- Header -->
-<div class="container">
-  <app-header></app-header>
+<!--loader-->
+<div *ngIf="showLoader" class="text-center">
+  <div style="padding-top: 35vh;">
+    <img src="assets/loader.svg">
+  </div>
 </div>
 
-<div>
-  <!--Hero section-->
+<div *ngIf="!showLoader">
+  <!-- Header -->
   <div class="container">
-    <app-hero></app-hero>
+    <app-header></app-header>
   </div>
 
-  <!--About section-->
-  <div class="container-fluid px-0" id="about">
-    <app-about></app-about>
-  </div>
+  <div>
+    <!--Hero section-->
+    <div class="">
+      <app-hero></app-hero>
+    </div>
 
-  <!-- Services Offered -->
-  <div class="container" id="services">
-    <app-services></app-services>
-  </div>
+    <!--About section-->
+    <div class="container-fluid px-0" id="about">
+      <app-about></app-about>
+    </div>
 
-  <!-- gallery -->
-  <div class="container" id="works">
-    <app-gallery></app-gallery>
-  </div>
+    <!-- Services Offered -->
+    <div class="container" id="services">
+      <app-services></app-services>
+    </div>
 
-  <!-- Painting Video -->
-  <div class="container" id="paintingVideo">
-    <app-video></app-video>
-  </div>
+    <!-- gallery -->
+    <div class="container" id="works">
+      <app-gallery></app-gallery>
+    </div>
 
-  <!-- contact -->
-  <div class="container" id="contact">
-    <app-contact></app-contact>
-  </div>
+    <!-- Painting Video -->
+    <div class="container" id="paintingVideo">
+      <app-video></app-video>
+    </div>
 
-  <!-- footer -->
-  <div class="container">
-    <app-footer></app-footer>
+    <!-- contact -->
+    <div class="container" id="contact">
+      <app-contact></app-contact>
+    </div>
+
+    <!-- footer -->
+    <div class="container">
+      <app-footer></app-footer>
+    </div>
   </div>
 </div>
