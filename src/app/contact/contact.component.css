@@ -6,9 +6,18 @@
 }
 .contact-left{
     text-align: right;
+    border-right: 1px solid #EBEBEB;
 }
 
-.centered {
+  .contact-box{
+      font-size: 17px;
+  }
+
+  .contact-box img{
+      height: 33px;
+  }
+
+  .centered {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -16,5 +25,29 @@
     color: #FFFFFF;
     opacity: 0.9;
     font-family: Helvetica;
-    font-size: 2vw;
+    font-size: 20px;
   }
+
+  /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .centered{
+        font-size: 15px!important;
+    }
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .centered{
+        font-size: 20px!important;
+    }
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }

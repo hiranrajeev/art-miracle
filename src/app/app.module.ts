@@ -16,6 +16,7 @@ import { ContactComponent } from './contact/contact.component';
 
 import { NgImageSliderModule } from 'ng-image-slider';
 import { AboutComponent } from './about/about.component';
+import { HeroComponent } from './hero/hero.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { AboutComponent } from './about/about.component';
     ServicesComponent,
     VideoComponent,
     ContactComponent,
-    AboutComponent
+    AboutComponent,
+    HeroComponent
   ],
   imports: [
     BrowserModule,

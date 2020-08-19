@@ -3,8 +3,31 @@
     margin-right:15px;
   }
 
-  .navbar li.active{
+  .active{
     font-weight: bold;
-   
-    border-bottom: 3px solid #FE781E;
+    background:linear-gradient(108deg, #FE781E,#F34242) left bottom  no-repeat;
+    background-size:40% 0.15rem;
   }
+
+  .nav-link {
+    padding-left: 0!important;
+    padding-bottom: 0.25rem!important;
+    margin-right: 1rem!important;
+  }
+
+  .nav-custom{
+    box-shadow: none;
+    background-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all .5s ease;
+  }
+
+  .sticky{
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.1);
+    background-color: #fff!important;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.65)!important;
+}

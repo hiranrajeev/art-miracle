@@ -1,0 +1,28 @@
+.section-two{
+    background-color: #F6F6F6;
+}
+
+.section-two-text{
+    margin: auto;
+    text-align: center;
+}
+
+.section-two-text-heading{
+    font-size: 18px;
+    font-weight: bold;
+    background:linear-gradient(108deg, #FE781E,#F34242) left bottom  no-repeat;
+    background-size:65% 0.2rem;
+    padding-bottom: 5px;
+}
+
+.about-me-text{
+    float: left;
+    text-align: left;
+    font-size: 17px;
+    line-height: 2;
+}
+
+.sub-heading1{
+    font-size: 26px;
+    font-weight: 600;
+}
