@@ -41,7 +41,55 @@
     padding-bottom: 10px;
     transition: all .5s ease;
   }
+
+  .mob-logo{
+    height: 30px;
+  }
 }
+
+.navbar-light .navbar-toggler{
+  border:none;
+  padding-right: 0;
+}
+
+.navbar-light .navbar-toggler:focus{
+  outline: none;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url(/assets/header/toggler-icon.svg);
+  background-color: white;
+  height:19px;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+  .nav-custom{
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.1);
+    background-color: #fff!important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all .5s ease;
+  }
+
+  .nav-link {
+    padding: 18px;
+    font-size: 18px;
+}
+
+.navbar-nav {
+  padding-bottom: 15px;
+}
+
+.active{
+  background: transparent linear-gradient(108deg,#fe781e,#f34242) 0 0 no-repeat padding-box;
+  background-size: unset;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+}
+
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
@@ -52,6 +100,22 @@
     padding-bottom: 10px;
     transition: all .5s ease;
   }
+
+  .nav-link {
+    padding: 18px;
+    font-size: 18px;
+}
+
+.navbar-nav {
+  padding-bottom: 15px;
+}
+
+.active{
+  background: transparent linear-gradient(108deg,#fe781e,#f34242) 0 0 no-repeat padding-box;
+  background-size: unset;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 }
 
 /* Medium devices (tablets, 768px and up) */

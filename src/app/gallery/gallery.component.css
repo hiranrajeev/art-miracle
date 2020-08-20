@@ -31,4 +31,8 @@
  .mat-ink-bar {
     display:none !important;
 }
+
+.gallery-container{
+    min-height: 500px;
+}
     

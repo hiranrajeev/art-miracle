@@ -1,5 +1,5 @@
 .contact{
-    padding-top: 9%;
+    padding-top: 75px;
 }
 .contact-heading{
     text-align: center;
@@ -11,6 +11,7 @@
 
   .contact-box{
       font-size: 17px;
+      padding-bottom: 20px;
   }
 
   .contact-box img{
@@ -19,27 +20,46 @@
 
   .centered {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 33%;
+    /*left: 50%;
+    transform: translate(-50%, -50%);*/
     color: #FFFFFF;
     opacity: 0.9;
     font-family: Helvetica;
-    font-size: 20px;
+    font-size: 22px;
+    width: 100%;
+    display: flex;
+  }
+
+  .centered-text{
+    margin:0 auto;
+  }
+
+  /* Extra small devices (portrait phones, less than 576px) */
+    @media (max-width: 575.98px) { 
+        .centered{
+            font-size: 20px!important;
+        }
+    
+        .contact-mob-pad-0{
+            padding: 0!important;
+        }
   }
 
   /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
     .centered{
-        font-size: 15px!important;
+        font-size: 20px!important;
+    }
+
+    .contact-mob-pad-0{
+        padding: 0!important;
     }
  }
 
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
-    .centered{
-        font-size: 20px!important;
-    }
+   
  }
 
  /* Large devices (desktops, 992px and up) */

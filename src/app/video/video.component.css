@@ -31,6 +31,7 @@
 
 .frame{
     border-radius: 9px;
+    height:315px;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -38,13 +39,31 @@
     .video-mob-left{
         text-align: left!important;
     }
+
+    .video{
+        border-radius: 0px!important;
+    }
+
+    .frame{
+        height:220px;
+    }
+    
   }
-  
+
   /* Small devices (landscape phones, 576px and up) */
   @media (min-width: 576px) and (max-width: 767.98px) { 
     .video-mob-left{
         text-align: left!important;
     }
+
+    .video{
+        border-radius: 0px!important;
+    }
+
+    .frame{
+        height:220px;
+    }
+    
   }
   
   /* Medium devices (tablets, 768px and up) */
