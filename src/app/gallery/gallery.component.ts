@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { IMasonryGalleryImage } from 'ngx-masonry-gallery';
 import { MatTabsModule } from '@angular/material/tabs';
 
@@ -6,7 +6,8 @@ import { MatTabsModule } from '@angular/material/tabs';
 @Component({
   selector: 'app-gallery',
   templateUrl: './gallery.component.html',
-  styleUrls: ['./gallery.component.css']
+  styleUrls: ['./gallery.component.css'],
+  encapsulation: ViewEncapsulation.None
 })
 export class GalleryComponent implements OnInit {
 

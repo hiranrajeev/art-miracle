@@ -18,7 +18,7 @@ export class HeaderComponent implements OnInit {
         console.log("inside script")
         event.preventDefault();
         $('body,html').animate({
-          scrollTop: $($(this).attr('href')).offset().top - 50},50);
+          scrollTop: $($(this).attr('href')).offset().top - 40},50);
 
           $( "#collapsibleNavbar" ).removeClass( "show" );
         // or use return false;
