@@ -8,30 +8,35 @@
     </div>
     <div #container>
         <mat-tab-group mat-align-tabs="center">
-            <mat-tab label="Family Sketch">
+            <mat-tab label="Couple Portrait">
                 <ng-template matTabContent>
                     <ngx-masonry-gallery [width]="getWidth(container.offsetWidth)" [images]='images'>
                     </ngx-masonry-gallery>
                 </ng-template>
             </mat-tab>
-            <mat-tab label="Caricature">
+            <mat-tab label="Single Portrait">
                 <ng-template matTabContent>
-                    <ngx-masonry-gallery [width]='300' [images]='images'></ngx-masonry-gallery>
+                    <ngx-masonry-gallery [width]="getWidth(container.offsetWidth)" [images]='images1'></ngx-masonry-gallery>
                 </ng-template>
             </mat-tab>
-            <mat-tab label="Portraits">
+            <mat-tab label="Family Sketch">
                 <ng-template matTabContent>
-                    <ngx-masonry-gallery [width]='300' [images]='images'></ngx-masonry-gallery>
+                    <ngx-masonry-gallery [width]="getWidth(container.offsetWidth)" [images]='images2'></ngx-masonry-gallery>
                 </ng-template>
             </mat-tab>
-            <mat-tab label="Save The Date">
+            <mat-tab label="Save the Date">
                 <ng-template matTabContent>
-                    <ngx-masonry-gallery [width]='300' [images]='images'></ngx-masonry-gallery>
+                    <ngx-masonry-gallery [width]="getWidth(container.offsetWidth)" [images]='images3'></ngx-masonry-gallery>
                 </ng-template>
             </mat-tab>
             <mat-tab label="Theme Based Art">
                 <ng-template matTabContent>
-                    <ngx-masonry-gallery [width]='300' [images]='images'></ngx-masonry-gallery>
+                    <ngx-masonry-gallery [width]="getWidth(container.offsetWidth)" [images]='images4'></ngx-masonry-gallery>
+                </ng-template>
+            </mat-tab>
+            <mat-tab label="Carricature">
+                <ng-template matTabContent>
+                    <ngx-masonry-gallery [width]="getWidth(container.offsetWidth)" [images]='images5'></ngx-masonry-gallery>
                 </ng-template>
             </mat-tab>
         </mat-tab-group>
